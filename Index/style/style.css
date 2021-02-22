@@ -1,0 +1,523 @@
+body {
+	font-family: 'Noto Sans JP', 'sans-serif';
+	margin: 0;
+	background-color: transparent;
+	background-image: url(../../images/motif.jpg);
+	background-repeat: repeat;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+button {
+	border-radius: 6px;
+	border: none;
+}
+
+.header_nav {
+	position: fixed;
+	top: 0;
+	height: 10%;
+	width: 100%;
+	background: linear-gradient(#b53131, rgba(83, 83, 83, 0));
+	z-index: 10;
+}
+
+#logo_image {
+	display: flex;
+	justify-content: flex-start;
+	width: 6.5%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+
+}
+
+/*--------------------------------- index*/
+.bouton_type_scan:hover {
+	background-color: rgb(108, 95, 95)
+}
+
+.bouton_type_scan {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 150px;
+	height: 1px;
+	bottom: 90px;
+	padding: 1% 2%;
+	margin: 1%;
+	transition: background-color .5;
+	color: black
+}
+
+.type_scan {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+#user_avatar {
+	position: absolute;
+	top: 8%;
+	right: 10%;
+}
+
+.connexion_inscription {
+	position: absolute;
+	bottom: 25%;
+	right: 0;
+	width: 20%;
+}
+
+#bouton_connexion {
+	position: absolute;
+	right: 65%;
+	display: inline-block;
+}
+
+#bouton_inscription {
+	position: absolute;
+	right: 25%;
+	display: inline-block;
+}
+
+
+.search {
+	position: fixed;
+	top: 10%;
+	left: 80%;
+	height: 3%;
+	width: 15%;
+	background: rgba(255, 255, 255, 0.35);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#label_research {
+	position: absolute;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+.maj {
+	position: absolute;
+	left: 3%;
+	top: 30%;
+	height: 172%;
+	width: 50%;
+	margin: 2%;
+	background: rgba(255, 255, 255, 0);
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	border: solid #ffffff;
+	border-radius: 12px;
+
+}
+
+.maj_scan {
+	height=300;
+	border-radius: 12px;
+}
+
+.couv_scan {
+	float: left;
+	margin: 2%;
+	height:
+}
+
+.chap_box {
+	top: 10%;
+	height: 40%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.chap {
+	margin: 2%;
+	color: white;
+}
+
+
+.ranking {
+	position: fixed;
+	right: 0%;
+	top: 35%;
+	width: 25%;
+	height: 40%;
+	background: #000000;
+}
+
+.rank {
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	border: solid black;
+}
+
+#rank72 {
+	right: 0;
+	font-size: 18px;
+	font-weight: lighter;
+	font-family: 'Lato', sans-serif;
+	background-color: #5d1f0a;
+}
+
+#rank24 {
+	font-size: 18px;
+	font-weight: lighter;
+	font-family: 'Lato', sans-serif;
+	background-color: #035757;
+}
+
+.top {
+	color: white;
+	text-align: center;
+}
+
+/* -----------------------------------  manga*/
+.manga_name {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
+	position: fixed;
+	left: 8%;
+	width: 40%;
+}
+
+.pres-manga {
+	position: absolute;
+	top: 15%;
+	height: 60%;
+	width: 50%;
+	margin: 5%;
+	background-color: antiquewhite;
+	border-radius: 8px;
+}
+
+.description {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 35%;
+	font-weight: 500;
+	position: fixed;
+	top: 30%;
+	left: 20%;
+	word-wrap: break-word;
+
+}
+
+#synopsis {
+	font-weight: 800;
+}
+
+#views {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 35%;
+	font-weight: 600;
+	position: fixed;
+	top: 50%;
+	left: 20%;
+	word-wrap: break-word;
+}
+
+#ranking {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 35%;
+	font-weight: 600;
+	position: fixed;
+	top: 60%;
+	left: 20%;
+	word-wrap: break-word;
+}
+
+
+.pres-manga h4 h2 {
+	display: inline;
+}
+
+.couv {
+	height: 30%;
+	width: auto;
+	float: left;
+	margin: 1%;
+	position: fixed;
+	left: 5%;
+	top: 30%;
+
+}
+
+.last {
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	top: 62%;
+	left: 3%;
+	height: 20%;
+	width: 50%;
+}
+
+.lien_chap {
+	display: flex;
+	flex-direction: column;
+	margin: 2%;
+	font-style: italic;
+	font-weight: 200;
+}
+
+#acces_all {
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	top: 86%;
+	left: 4%;
+	width: 15%;
+	height: 5%;
+	padding: 0;
+	border-radius: 8px;
+	text-decoration: none;
+	background: rgb(255, 255, 255);
+	border: none;
+
+}
+
+#acces_all:hover {
+	color: red;
+	background: antiquewhite;
+}
+
+.comment_space {
+	position: absolute;
+	width: 30%;
+	height: 60%;
+	top: 25%;
+	right: 5%;
+	background-color: #a9acbf;
+	border-radius: 12px;
+}
+
+.comment {
+	position: absolute;
+	top: 2%;
+	left: 1%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
+	font-size: auto;
+	padding: 0;
+	margin: 0;
+	height: 6%;
+}
+
+.post_comment {
+	position: absolute;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	height: 5%;
+	bottom: 2%;
+}
+
+/*search*/
+.resultats {
+	position: absolute;
+	left: 3%;
+	top: 30%;
+	height: 162%;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	border: solid #ffffff;
+	border-radius: 12px;
+}
+
+.search_v2 {
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	height: 8%;
+	border: none;
+	border-color: transparent;
+	background-color: transparent;
+
+}
+
+#recherche_v2 {
+	position: absolute;
+	top: 22%;
+	left: 5%;
+	height: 50%;
+	width: 80%;
+}
+
+#research_v2 {
+	position: absolute;
+	top: 10%;
+	left: 1%;
+	height: 85%;
+	width: 85%;
+}
+
+#label_research_v2 {
+	position: absolute;
+	right: 0%;
+	top: 10%;
+	height: 100%;
+	width: 12%;
+	border: none;
+	border-radius: 8px;
+
+}
+
+#label_research_v2:hover {
+	color: red;
+	background-color: antiquewhite;
+}
+
+.filtres {
+	position: absolute;
+	top: 30%;
+	right: 3%;
+	width: 25%;
+	height: 60%;
+	background-color: antiquewhite;
+	border-radius: 12px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.repertoire_genre {
+	width: 100%;
+	height: 91%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+
+}
+
+.genre {
+	height: 8%;
+	margin: 1%;
+	background-color: antiquewhite;
+	border-color: black;
+	border: 1px solid;
+}
+
+.genre:hover {
+	background: white;
+}
+
+.pages {
+	position: absolute;
+	bottom: -93%;
+	left: 3%;
+	width: 50%;
+}
+
+.next_page {
+	background: antiquewhite;
+	position: absolute;
+	border-radius: 8px;
+	border: 1px solid;
+	border-color: black;
+	height: 25px;
+	right: 0%;
+	width: 20%;
+}
+
+.previous_page {
+	background: antiquewhite;
+	position: absolute;
+	border-radius: 8px;
+	border: 1px solid;
+	border-color: black;
+	height: 25px;
+	left: 0%;
+	width: 20%;
+}
+
+.next_page:hover {
+	background: white;
+	color: black;
+}
+
+.previous_page:hover {
+	background: white;
+	color: black;
+}
+
+/* user_space*/
+.user_page {
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	left: 10%;
+	right: 10%;
+	top: 30%;
+	background: #363533;
+}
+
+.user_profil_pic {
+	position: absolute;
+	² top: 5%;
+	left: 3%;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 50%;
+}
+
+.interface_user {
+	position: absolute;
+	top: 15%;
+	width: 40%;
+	left: 20%;
+	right: 40%;
+	height: 6%;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	border-radius: 12px;
+}
+
+.interface {
+
+	width: 25%;
+	background: red;
+	border: solid #000000 1px;
+	border-radius: 12px;
+	width: 100%;
+	height: 100%;
+}
+
+.interface:hover {
+	background: antiquewhite;
+	color: #000000
+}
+
+.content {
+	width: 90%;
+	height: 60%;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 35%;
+	background: #000;
+}

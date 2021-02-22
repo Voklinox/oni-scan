@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+    background-color: black;
+	background-image: url(../../images/fond.jpg);
+}
+
+.header {
+	background: linear-gradient(rgba(240, 74, 74, 0.95), rgba(240, 141, 141, 0));
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.user {
+	display: flex;
+	justify-content: flex-end;
+	flex-grow: 0;
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	
+}
+
+ .logo {
+	display: flex;
+	justify-content:flex-start;
+	top: 0%;
+	left: 15%;
+	margin: 0;
+	padding: 0;
+}
+
+
+button{
+	border-radius: 8px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	top: 15%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #0f0f0f;
+	transition: background-color .5;
+
+}
+
+button:hover{
+	background: #1f1d1d;
+	color: white;
+}
+.manga {
+	position: static;
+	top: 40%;
+	text-align: center;
+}
+
+#name_chapter{
+    width: 80%
+}

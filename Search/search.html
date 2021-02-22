@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../Index/style/style.css">
+	<link rel="icon" href="../images/logo.png">
+	<meta name="Oni-Scan" content="Site de scan de malade">
+	<meta name="keywords" content="Scan fr">
+	<title>Oni-Scan</title>
+</head>
+
+<body>
+	<div class="header_nav">
+		<a id=logo href="../Index/index.html">
+			<img id=logo_image src="../images/logo.png" alt="logo" height="50" width="50"></a>
+		<div class=type_scan>
+			<!-- Section du bandeau en haut a droite avec 3 bouttons et un bouton de connexion -->
+			<button class=bouton_type_scan type="button">
+				<a href="../Search/search.html">Manga</a>
+			</button>
+
+			<button class=bouton_type_scan type="button">
+				<a href="../Search/search.html">Manhua</a>
+			</button>
+
+			<button class=bouton_type_scan type="button">
+				<a href="../Search/search.html">Manhwa</a>
+			</button>
+			<!-- Icone d'avatar de l'utilisateur -->
+		</div>
+		<a id="user_avatar" href="../User-Space/user-space.html">
+			<img src="../images/pfp.jpeg" alt="avatar" width="50" height="50">
+		</a>
+		<section class=connexion_inscription>
+			<!-- Section de connexion et d'inscription utilisateur -->
+			<form action="" id=bouton_connexion>
+				<!-- Connexion -->
+				<!-- <label for="user-name">Nom d'utilisateur :</label>
+                    <input type="text" id="user-name">
+                    <br>
+                    <label for="password">Mot de passe</label>
+                    <input type="text" id="password">
+                    <br>-->
+				<input type="submit" value="Connexion">
+			</form>
+			<!-- -------------------------------------------------------------- -->
+			<form action="" id=bouton_inscription>
+				<!-- Inscription -->
+				<!--  <label for="user-name">Nom d'utilisateur :</label>
+                    <input type="text" id="user-name">
+                    <br>
+                    <label for="mail">Adresse email :</label>
+                    <input type="text" id="mail">
+                    <br>
+                    <label for="confirm-mail">Confirmer l'adresse email :</label>
+                    <input type="text" id="confirm-mail">
+                    <br>
+                    <label for="password">Mot de passe :</label>
+                    <input type="text" id="password">
+                    <br>
+                    <label for="confirm-password">Confirmer le mot de passe :</label>
+                    <input type="text" id="confirm-password"> -->
+				<input type="submit" value="Inscription">
+			</form>
+		</section>
+	</div>
+
+	<div class="search_v2">
+		<!-- Section avec la barre de recherche -->
+		<section id=recherche_v2>
+			<input type="text" id="research_v2">
+			<button id=label_research_v2>
+				<label for="research_v2">
+					Rechercher
+				</label>
+			</button>
+		</section>
+	</div>
+	<!-- ------------------------------------------------------------------------------------- -->
+	<section class=resultats>
+		<section class=maj_scan id=maj_1>
+			<img class=couv_scan src="../images/jujustu_kaisen_cover.jpg" alt=jujustu_kaisen>
+			<div class=chap_box>
+				<a class=chap href="../Lecture/lecture.html">Chap 137 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 136 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 135 : date</a>
+			</div>
+		</section>
+
+		<section class=maj_scan id=maj_2>
+			<img class=couv_scan src="../images/one_piece_cover.jpg" alt="one_piece">
+			<div class=chap_box>
+				<a class=chap href="../Lecture/lecture.html">Chap 1003 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 1002 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 1001 : date</a>
+			</div>
+		</section>
+
+		<section class=maj_scan id=maj_3>
+			<img class=couv_scan src="../images/toriko_cover.jpg" alt="toriko">
+			<div class=chap_box>
+				<a class=chap href="../Lecture/lecture.html">Chap 369 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 368 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 367 : date</a>
+			</div>
+		</section>
+
+		<section class=maj_scan id=maj_4>
+			<img class=couv_scan src="../images/black_clover_cover.jpg" alt="black_clover">
+			<div class=chap_box>
+				<a class=chap href="../Lecture/lecture.html">Chap 369 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 368 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 367 : date</a>
+			</div>
+		</section>
+
+		<section class=maj_scan id=maj_5>
+			<img class=couv_scan src="../images/mha_cover.jpg" alt="mha">
+			<div class=chap_box>
+				<a class=chap href="../Lecture/lecture.html">Chap 300 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 299 : date</a>
+				<a class=chap href="../Lecture/lecture.html">Chap 298 : date</a>
+			</div>
+		</section>
+	</section>
+
+	<section class=filtres>
+		<!-- Zone des filtres a droite des résultats -->
+		<p>
+			&nbsp; Filtres :
+		</p>
+		<div class=repertoire_genre>
+			<button class=genre type="button">
+				<a href="../Search/search.html">shonen</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">seinen</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">shojo</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">isekai</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">slice of life</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">manwha</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">manga</a>
+			</button>
+			<button class=genre type="button">
+				<a href="../Search/search.html">manhua</a>
+			</button>
+		</div>
+	</section>
+	
+	<div class="pages">
+		<button class="next_page">Page suivante</button>
+		<button class="previous_page">Page precedente</button>
+	</div>
+</body></html>

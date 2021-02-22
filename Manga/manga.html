@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../Index/style/style.css">
+	<link rel="icon" href="../images/logo.png">
+	<meta name="Oni-Scan" content="Site de scan de malade">
+	<meta name="keywords" content="Scan fr">
+	<title>Oni-Scan</title>
+</head>
+
+<body>
+	<div class="header_nav">
+		<a id=logo href="../Index/index.html">
+			<img id=logo_image src="../images/logo.png" alt="logo" height="50" width="50"></a>
+		<div class=type_scan>
+			<!-- Section du bandeau en haut a droite avec 3 bouttons et un bouton de connexion -->
+			<button class=bouton_type_scan type="button">
+				<a href="../Search/search.html">Manga</a>
+			</button>
+
+			<button class=bouton_type_scan type="button">
+				<a href="../Search/search.html">Manhua</a>
+			</button>
+
+			<button class=bouton_type_scan type="button">
+				<a href="../Search/search.html">Manhwa</a>
+			</button>
+			<!-- Icone d'avatar de l'utilisateur -->
+		</div>
+		<a id="user_avatar" href="../User-Space/user-space.html">
+			<img src="../images/pfp.jpeg" alt="avatar" width="50" height="50">
+		</a>
+		<section class=connexion_inscription>
+			<!-- Section de connexion et d'inscription utilisateur -->
+			<form action="" id=bouton_connexion>
+				<!-- Connexion -->
+				<!-- <label for="user-name">Nom d'utilisateur :</label>
+                    <input type="text" id="user-name">
+                    <br>
+                    <label for="password">Mot de passe</label>
+                    <input type="text" id="password">
+                    <br>-->
+				<input type="submit" value="Connexion">
+			</form>
+			<!-- -------------------------------------------------------------- -->
+			<form action="" id=bouton_inscription>
+				<!-- Inscription -->
+				<!--  <label for="user-name">Nom d'utilisateur :</label>
+                    <input type="text" id="user-name">
+                    <br>
+                    <label for="mail">Adresse email :</label>
+                    <input type="text" id="mail">
+                    <br>
+                    <label for="confirm-mail">Confirmer l'adresse email :</label>
+                    <input type="text" id="confirm-mail">
+                    <br>
+                    <label for="password">Mot de passe :</label>
+                    <input type="text" id="password">
+                    <br>
+                    <label for="confirm-password">Confirmer le mot de passe :</label>
+                    <input type="text" id="confirm-password"> -->
+				<input type="submit" value="Inscription">
+			</form>
+		</section>
+	</div>
+
+	<div class="search">
+		<!-- Section avec la barre de recherche -->
+		<section id=recherche>
+			<input type="text" id="research">
+			<button>
+				<label for="research">
+					Recherche
+				</label>
+			</button>
+		</section>
+	</div>
+
+
+
+	<!-- Cadre du manga -->
+	<div class=pres-manga>
+		<h2 class="manga_name">One piece</h2>
+
+		<img src="../images/one_piece_cover.jpg" alt="Couverture" class="couv">
+		<section class=description>
+			<p>
+				<spam id="synopsis">Synopsis : </spam> <br>
+				Monkey D. Luffy est un garçon espiègle, rêve de devenir le roi des pirates en trouvant le «One Piece», un fabuleux et mystérieux trésor. Mais, par mégarde, Luffy a avalé un jour un «fruit magique du démon» qui l'a transformé en homme caoutchouc. Depuis, il est capable de contorsionner son corps élastique dans tous les sens, mais il a perdu la faculté de nager, le comble pour un pirate ! Au fil d'aventures toujours plus rocambolesques et de rencontres fortuites, Luffy va progressivement composer son équipage et multiplier les amitiés avec les peuples qu'il découvre, tout en affrontant de redoutables ennemis.
+			<p>
+
+			<section id=views>
+				Views : 1000
+			</section>
+
+			<section id=ranking>
+				Ranking : 4.75/5
+			</section>
+		</section>
+
+		<section class=last>
+			<p>Derniers chapitres : </p>
+			<a class=lien_chap href="../Lecture/lecture.html">Chap 1004: Kibi-Dango</a>
+			<a class=lien_chap href="../Lecture/lecture.html">Chap 1003: Nuit sur le plateau</a>
+			<a class=lien_chap href="../Lecture/lecture.html">Chap 1002: Yonko VS Nouvelle generation</a>
+		</section>
+		<div>
+			<button id=acces_all>Tous les chapitres</button>
+		</div>
+	</div>
+	<!-- Espace commentaire -->
+	<div class="comment_space">
+		<div class="comment">Commentaire</div>
+
+		<!-- COMMENTAIRES -->
+		<div class="post_comment">
+			<label for="Commentaire">Commentaire :</label>
+			<input type="text">
+		</div>
+	</div>
+
+</body></html>
