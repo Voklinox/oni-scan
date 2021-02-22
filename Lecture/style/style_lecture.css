@@ -1,4 +1,4 @@
-body {
+body { 
 	margin: 0;
     background-color: black;
 	background-image: url(../../images/fond.jpg);
@@ -18,7 +18,7 @@ body {
 	position: absolute;
 	right: 1%;
 	top: 1%;
-	
+
 }
 
  .logo {

@@ -1,5 +1,5 @@
 <?php require '../PHP/header.php' ?>
-
+ 
 <div class="maj">
 		<!-- Section rectangulaire des dernières mises a jours -->
 		<h3 class="last_maj"> Dernières mises à jour : </h3>
